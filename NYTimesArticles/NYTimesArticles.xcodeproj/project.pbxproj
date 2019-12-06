@@ -13,7 +13,6 @@
 		CA8BA276239A26B500A8805A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BA275239A26B500A8805A /* Article.swift */; };
 		CABFB2DF239954910039D1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2DE239954910039D1E4 /* AppDelegate.swift */; };
 		CABFB2E1239954910039D1E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2E0239954910039D1E4 /* SceneDelegate.swift */; };
-		CABFB2E3239954910039D1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2E2239954910039D1E4 /* ViewController.swift */; };
 		CABFB2E6239954910039D1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABFB2E4239954910039D1E4 /* Main.storyboard */; };
 		CABFB2E8239954920039D1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFB2E7239954920039D1E4 /* Assets.xcassets */; };
 		CABFB2EB239954920039D1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABFB2E9239954920039D1E4 /* LaunchScreen.storyboard */; };
@@ -60,7 +59,6 @@
 		CABFB2DB239954910039D1E4 /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABFB2DE239954910039D1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABFB2E0239954910039D1E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CABFB2E2239954910039D1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CABFB2E5239954910039D1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CABFB2E7239954920039D1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABFB2EA239954920039D1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 				CABFB312239971F20039D1E4 /* API */,
 				CABFB2DE239954910039D1E4 /* AppDelegate.swift */,
 				CABFB2E0239954910039D1E4 /* SceneDelegate.swift */,
-				CABFB2E2239954910039D1E4 /* ViewController.swift */,
 				CABFB2E4239954910039D1E4 /* Main.storyboard */,
 				CABFB2E7239954920039D1E4 /* Assets.xcassets */,
 				CABFB2E9239954920039D1E4 /* LaunchScreen.storyboard */,
@@ -475,7 +472,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8BA276239A26B500A8805A /* Article.swift in Sources */,
-				CABFB2E3239954910039D1E4 /* ViewController.swift in Sources */,
 				CABFB32D2399783C0039D1E4 /* ArticleTableViewCell.swift in Sources */,
 				CABFB2DF239954910039D1E4 /* AppDelegate.swift in Sources */,
 				CABFB3292399770C0039D1E4 /* ArticleDetailsViewController.swift in Sources */,
