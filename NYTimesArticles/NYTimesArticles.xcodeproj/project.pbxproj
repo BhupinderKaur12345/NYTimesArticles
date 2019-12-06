@@ -10,6 +10,7 @@
 		6133674720BD99796B3EB8C8 /* Pods_NYTimesArticlesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376CFFB1BCC5123092067D02 /* Pods_NYTimesArticlesUITests.framework */; };
 		BF069A90F8E0354852B2AEEF /* Pods_NYTimesArticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DE4C6EEA758654DF24209 /* Pods_NYTimesArticles.framework */; };
 		C7BB37B934463B0ECA47A7B5 /* Pods_NYTimesArticlesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF14BAD549FF09CD09723F55 /* Pods_NYTimesArticlesTests.framework */; };
+		CA8BA276239A26B500A8805A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BA275239A26B500A8805A /* Article.swift */; };
 		CABFB2DF239954910039D1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2DE239954910039D1E4 /* AppDelegate.swift */; };
 		CABFB2E1239954910039D1E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2E0239954910039D1E4 /* SceneDelegate.swift */; };
 		CABFB2E3239954910039D1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB2E2239954910039D1E4 /* ViewController.swift */; };
@@ -25,7 +26,6 @@
 		CABFB31C239975410039D1E4 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB31A239975410039D1E4 /* UIImageView.swift */; };
 		CABFB31D239975410039D1E4 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB31B239975410039D1E4 /* UIViewController.swift */; };
 		CABFB320239975A30039D1E4 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB31F239975A30039D1E4 /* ArticleViewModel.swift */; };
-		CABFB324239976020039D1E4 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB323239976020039D1E4 /* Article.swift */; };
 		CABFB3282399770C0039D1E4 /* ArticlesMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB3262399770C0039D1E4 /* ArticlesMasterViewController.swift */; };
 		CABFB3292399770C0039D1E4 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB3272399770C0039D1E4 /* ArticleDetailsViewController.swift */; };
 		CABFB32D2399783C0039D1E4 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFB32B2399783C0039D1E4 /* ArticleTableViewCell.swift */; };
@@ -56,6 +56,7 @@
 		933CB413D242AAE96C4F1603 /* Pods-NYTimesArticles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticles.release.xcconfig"; path = "Target Support Files/Pods-NYTimesArticles/Pods-NYTimesArticles.release.xcconfig"; sourceTree = "<group>"; };
 		A8F596E867C565148FF6C2B2 /* Pods-NYTimesArticlesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticlesTests.debug.xcconfig"; path = "Target Support Files/Pods-NYTimesArticlesTests/Pods-NYTimesArticlesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98DE4C6EEA758654DF24209 /* Pods_NYTimesArticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8BA275239A26B500A8805A /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		CABFB2DB239954910039D1E4 /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABFB2DE239954910039D1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABFB2E0239954910039D1E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 		CABFB31A239975410039D1E4 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		CABFB31B239975410039D1E4 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CABFB31F239975A30039D1E4 /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
-		CABFB323239976020039D1E4 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../../../Article.swift; sourceTree = "<group>"; };
 		CABFB3262399770C0039D1E4 /* ArticlesMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesMasterViewController.swift; sourceTree = "<group>"; };
 		CABFB3272399770C0039D1E4 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 		CABFB32B2399783C0039D1E4 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
@@ -229,7 +229,7 @@
 		CABFB321239975BF0039D1E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CABFB323239976020039D1E4 /* Article.swift */,
+				CA8BA275239A26B500A8805A /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -474,13 +474,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8BA276239A26B500A8805A /* Article.swift in Sources */,
 				CABFB2E3239954910039D1E4 /* ViewController.swift in Sources */,
 				CABFB32D2399783C0039D1E4 /* ArticleTableViewCell.swift in Sources */,
 				CABFB2DF239954910039D1E4 /* AppDelegate.swift in Sources */,
 				CABFB3292399770C0039D1E4 /* ArticleDetailsViewController.swift in Sources */,
 				CABFB31C239975410039D1E4 /* UIImageView.swift in Sources */,
 				CABFB317239972190039D1E4 /* ApiManager.swift in Sources */,
-				CABFB324239976020039D1E4 /* Article.swift in Sources */,
 				CABFB316239972190039D1E4 /* MostPopularArticlesApi.swift in Sources */,
 				CABFB3282399770C0039D1E4 /* ArticlesMasterViewController.swift in Sources */,
 				CABFB2E1239954910039D1E4 /* SceneDelegate.swift in Sources */,
