@@ -15,7 +15,7 @@ Tools And Resources Used
 
 Library Used
 * Moya- Network abstraction layer written in Swift.
-* KingfisherÊ- A lightweight, pure-Swift library for downloading and caching images from the web.
+* Kingfisher- A lightweight, pure-Swift library for downloading and caching images from the web.
 * SVProgressHUD- SVProgressHUD is a clean and easy-to-use HUD meant to display the progress of an ongoing task on iOS and tvOS.
 
 
