@@ -1,6 +1,6 @@
 # NYTimesArticles
 NY Times Articles
-This app is to hit the NY Times Most Popular Articles API (http://api.nytimes.com/svc/mostpopular/v2/mostviewed/{section}/{period}.json?apikey=Êsample-key) and:-
+This app is to hit the NY Times Most Popular Articles API (http://api.nytimes.com/svc/mostpopular/v2/mostviewed/{section}/{period}.json?apikey=sample-key) and:-
 * To show a list of articles newest first(sorted based on date)
 * To shows details when items on the list are tapped.
 
