@@ -23,7 +23,7 @@ Library Used
 How to build and run the code?
 * Start by cloning the repository
 * Go to directory
-* Open "NY Times Most Popular Articles.xcworkspace" using Xcode
+* Open "NYTimesArticles.xcworkspace" using Xcode
 * use command + B or Product -> Build to build the project
 * Incase of build fail due to dependency Kingfisher, install Kingfisher using CocoaPods.
 * Incase of build fail due to dependency Moya, install Moya using CocoaPods.
